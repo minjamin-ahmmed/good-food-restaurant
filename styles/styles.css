@@ -1,0 +1,210 @@
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn-container{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 32px 21px 32px;
+    border: none;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner container styles starts here */
+ .banner-container{
+    max-width:1920px;
+    height:919px;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%) ,url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+    margin-bottom: 449px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+ }
+
+.banner-text-container h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 18px;
+
+}
+
+.banner-text-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-text-container p{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+/* card-box container Starts here */
+
+.card-box-container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.card-box-text-container h3{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+
+.card-box-text-container h1{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+.card-box-text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-box-image-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pizza-parent-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pizza-parent-container h3{
+    margin-top: 46px;
+    margin-left: 100px;
+    margin-bottom:38px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 14px 32px 14px 32px;
+    text-align: center;
+    width: 187px;
+}
+
+.pizza-parent-container h2{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.pizza-parent-container p{
+    color: rgb(16, 16, 16);
+font-size: 18px;
+font-weight: 500;
+opacity: 0.7;
+
+}
+
+.Biryani-parent-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.Biryani-parent-container h3{
+    margin-top: 46px;
+    margin-left: 100px;
+    margin-bottom:38px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 14px 32px 14px 32px;
+    text-align: center;
+    width: 187px;
+
+}
+
+.Biryani-parent-container h2{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.Biryani-parent-container p{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.burger-parent-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.burger-parent-container h3{
+    margin-top: 46px;
+    margin-left: 100px;
+    margin-bottom:38px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 14px 32px 14px 32px;
+    text-align: center;
+    width: 187px;
+}
+
+.burger-parent-container h2{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+
+.burger-parent-container p{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
